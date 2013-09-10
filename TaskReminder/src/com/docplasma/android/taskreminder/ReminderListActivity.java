@@ -23,7 +23,7 @@ public class ReminderListActivity extends ListActivity {
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.reminder_row, R.id.text1, items);
 		setListAdapter(adapter);
 		registerForContextMenu(getListView());
-	}//test commit
+	}
 	
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
