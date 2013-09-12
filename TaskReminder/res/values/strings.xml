@@ -16,6 +16,7 @@
     <string name="reminder_edit_time">Time</string>
     <string name="reminder_edit_time_edit">Edit Time</string>
     <string name="reminder_edit_confirm">Confirm</string>
+    <string name="reminder_edit_alert_dialog_confirm">Are you sure you want to save these changes?</string>
 
     <!-- reminder_list_add -->
 
@@ -27,5 +28,10 @@
     <string name="title_activity_date_picker_fragment">DatePickerFragment</string>
     <string name="title_activity_time_picker_fragment">TimePickerFragment</string>
     <string name="title_activity_alert_dialog_fragment">AlertDialogFragment</string>
+    
+    <!-- alert_dialogs -->
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    
 
 </resources>
