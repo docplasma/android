@@ -4,6 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right|top"
+        android:text="@string/cheat_button" />
+    
     <TextView
         android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
@@ -29,6 +36,7 @@
 			android:id="@+id/false_button"/>
         
     </LinearLayout>
+    
 	<LinearLayout 
     	android:layout_width="wrap_content"
    		android:layout_height="wrap_content"
@@ -41,21 +49,21 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/previous_button"
             android:src="@drawable/arrow_left" />
-         
+
         <View
-            android:id="@+id/button_space"
+            android:id="@+id/button_space1"
             android:layout_width="0dip"
             android:layout_height="match_parent"
-            android:layout_weight="1"> </View>
-        
-   		<ImageButton
+            android:layout_weight="1" />
+
+		<ImageButton
 	        android:id="@+id/next_button"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_gravity="right"
 	        android:src="@drawable/arrow_right"
 	        android:contentDescription="@string/next_button" />
+
 	</LinearLayout>
-    
     
 </FrameLayout>
